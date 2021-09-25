@@ -19,11 +19,15 @@ public class Punto {
 	public void setY(float y) {
 		this.y = y;
 	}
-
-	public Punto(float x, float y) {
-		super();
+	
+	public void setXY(float x, float y) {
 		this.x = x;
 		this.y = y;
+		
+	}
+	public Punto(float x, float y) {
+		super();
+		this.setXY(x, y);
 	}
 	
 	
